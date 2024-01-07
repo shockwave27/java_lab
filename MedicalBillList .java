@@ -23,7 +23,7 @@ jtf1=new JTextField(20);
 jtf2=new JTextField(20);
 jtf3=new JTextField(20);
 jlist1=new JList(test);
-jlist1.setSelectionModel(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+jlist1.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
 jb1=new JButton("Bill");
 contentPane.add(jl1);
 contentPane.add(jtf1);
